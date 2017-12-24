@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+  <head>
+    <meta name="baidu-site-verification" content="eC6cDvNw1Z" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="X-UA-compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <title> 鼠的思考笔记</title>
+    <script src="jquery.min.js"></script>
+    <script src="main.js"></script>
+
+  </head>
+
+  <body>
+    <div class="navbar navbar-default ">
+      <div class="navbar-container">
+        <div class="navbar-header">
+          <a href="index.html" class="navbar-brand"></a>
+          <a href="login.html"><button type="button" name="button" class="float-right">登陆</button></a>
+          <a href="login.html"><button type="button" name="button" class="float-buttom">注册</button></a>
+
+        </div>
+        <label id="toggle-label" class="visible-xs-inline-block" for="toggle-checkbox">MENU</label>
+        <input class="hidden" id="toggle-checkbox" type="checkbox">
+        <div class="hidden-xs">
+          <ul class=" nav navbar-nav">
+            <li><a href="#">       </a></li>
+            <li><a href="#">       </a></li>
+            <li><a href="#">html</a></li>
+            <li><a href="#">three.js|</a></li>
+            <li><a href="#">web程序|</a></li>
+            <li><a href="#">3dmax&Maya建模动画|</a></li>
+            <li><a href="#">霓虹语|||</a></li>
+            <li><a href="#">服务器|</a></li>
+            <li><a href="#">AI|</a></li>
+            <li><a href="#">COCOS2D|||</a></li>
+            <li><a href="#">刀塔||</a></li>
+            <li><a href="#">PY数据抓取||</a></li>
+            <li><a href="#">数据库|||</a></li>
+            <li><a href="#">PHP后台开发||</a></li>
+          </ul>
+          <!-- <br><br>
+      <ul class="nav navbar-nav ">
+        <li><a href="login.html">登陆</a></li>
+        <li><a href="signup.html">注册</a></li>
+      </ul> -->
+        </div>
+
+      </div>
+    </div>
+
+    <div class="side-bar">
+      <div class="header">
+        <!-- <a href="index.html" class="logo">土拨鼠</a> -->
+        <!-- <div class="intro">鼠在打洞时鼠在想些什么——<br>欢迎探讨和捐助<br>点击 捐助鼠 有惊喜↓↓↓</div> -->
+      </div>
+      <div class="nav">
+        <div class="">
+        </div>
+        <div class="nav"> <a href="" class="item">关于鼠</a></div>
+        <div id="qq" class="nav">
+          <a id="click2" class="item">联系鼠 </a>
+          <p id="saoma2" class="item1" style="display:none">qq:921154624</p>
+        </div>
+
+        <div id="qq1" class="nav">
+          <a id="click1" class="item">捐助鼠 </a>
+          <div>
+            <p class="item1">扫码捐助 </p>
+            <img id="saoma" src="img/qq_pic_merged_1502519905536.jpg" style="display:none">
+          </div>
+          <br>
+        </div>
+      </div>
+
+      <div class="tag-list">
+        <a href="" class="item">#井号鼠</a>
+        <!-- ==================================================================== -->
+        <a href="" class="item">%百分鼠</a>
+        <a href="" class="item">*玛尼鼠</a>
+        <p class="zuoxiajiaobianju">2017.8.12上线</p>
+      </div>
+
+    </div>
+    <!-- 边栏 -->
+
+    <div class="main">
+      <div class="article">
+        <h1 class="title">关于百度快照</h1>
+        <div class="status">发布于： 2017-10-02 | 阅读： 3500 | 标签： #py</div>
+        <div class="content">
+          <div>
+            <h3> 关于百度快照及站长工具 <br></h3>
+            <p>网页运行成功并不是大功告成</p>
+
+            <p> 如果要运行一个想被大家看到的分享博客，需要百度快照将它抓到大家眼前</p>
+          </div>
+          <img class="largeq" src="img/M5WVQVZO5DK~@[}[(({3~I4.png">
+          <p>
+            好了，大概剩下的就知道怎么回事了，请左拐百度 = = 　<br><br>
+            <==================分割线=================>
+              <br><br> </p>
+          <img class="largeq" src="img/@~YBSSD)_CYH2NB8G@GG90Y.png" alt="">
+          <p> 啊对了，其实成功被抓取后显示的只是快照，即几天或几小时之前引擎看到的你的页面的样子，并不能即时，而且点击进去也不是你自己的网址</p>
+          <p>如果想的话，可以考虑一下重定向 <br><br> <br><br> </p>
+          <p class="color_light">从上到下依次是 文件类型、快照点击的进入但是不是你的网址、想要让快照点击进去的网址</p>
+
+          <img class="largeq" src="img/@C]9[8[J27IAS8`1U[LYZ41.png">
+          <p id="color_light1">创建记事本，输入以下代码：
+            <br>
+            <IfModule mod_rewrite.c>
+              <br>RewriteEngine On
+              <br>#Redirect
+              <br>RewriteCond %{HTTP_HOST} ^http://www.wapyk.com/$
+              <br>RewriteRule ^(.*)$ http://www.whereismotshole.top/$1 [R=301,L]
+              <br>　ErrorDocument 404 /404.html
+              <br>然后将文件类型保存为.htaccess
+              <br>将文件放在网页根文件下，过一天就能生效了
+          </p>
+          <div>
+
+
+          </div>
+        </div>
+
+      </div>
+      <div class="footer">
+
+        © 2017 whereismotshole.com 版权所有 ICP证：鲁17035574号-1 鲁ICP备17035574号
+      </div>
+    </div>
+
+    <!-- 中间正文 -->
+
+  </body>
+
+</html>
