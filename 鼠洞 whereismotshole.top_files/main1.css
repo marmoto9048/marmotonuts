@@ -1,0 +1,286 @@
+.blocky{
+  padding: 90%;
+}
+.side-bar{
+  float: left;
+  width: 20%;
+  position: fixed;
+}
+#toggle-label{
+  display: inline-block;
+  position: absolute;
+  right: 15px;
+  top: 13px;
+  font-size: 16px;
+  font-weight: normal;
+  color: #666;
+z-index: 999;
+}
+#myAnchor{
+  color: #fff;
+position: absolute;
+top: 58%;
+}
+#button{
+  background-color: #E1A13D;
+  color: #ffffff;
+}
+.inactive{
+  style=" background-repeat:no-repeat ;
+  background-size: 100%;
+  background-attachment: fixed;"}
+.float-buttom{
+position: absolute;
+right: -170%;
+}
+.float-right,.float-buttom{
+  position: absolute;
+  top: -10%;
+  color: #777;
+  /*left: 100%;*/
+}
+.float-right{
+  position: absolute;
+  right: -170%;
+  top: 40%;
+}
+.footer{
+  margin-top: 20px;
+  padding: 50px 0;
+  text-align: center;
+  color: #999;
+}
+.footer-bottom{
+  bottom:0px;
+   margin-top: -20px;
+}
+p,div{
+  font-family: \5FAE\8F6F\96C5\9ED1!important;
+}
+p {
+font-size: 15px;
+}
+#toggle-checkbox:checked ~ div
+{
+  display: block !important;
+}
+
+.side-bar .list-group-item.active
+ {
+  background-color: #454545;
+    height: 15px!important;
+  /*#ea0c3c*/
+}
+.navbar-header{
+  /*height: 11px;*/
+  /*width: 100%;
+  height: 100%;*/
+  position: fixed;
+  top: 1%;
+  left: 1%;
+  z-index: 1
+}
+.navbar-nav{
+  margin-right: 20px;
+  position: relative;
+  height: 0px;
+  /*left: 400%*/
+  /*bottom: 400%;*/
+}
+.visible-xs-inline-block{
+  max-width: 50%;
+  position: absolute;
+
+}
+.toggle-label{
+  max-width: 50%;
+}
+#toggle-label:hover{
+  color: #454545;
+}
+.hidden-xs{
+
+  background-color: #fff;
+  position: absolute;
+  /*top: 100%;*/
+  right: 0px;
+  /*height: 1100%*/
+}
+..navbar-brand:hover{
+
+}
+.navbar-brand{
+  /*padding:20px 10px;*/
+  /*margin : 3px 10 3px 0px;*/
+  background-image: url(../img/logo.png);
+  background-size: 100%;
+  background-repeat:no-repeat;
+  /*background-position: center center;*/
+  z-index: 999;
+    right: 130%;
+    top: 100%
+}
+.side-right{
+  float: right;
+  width: 20%;
+  position: fixed;
+}
+.item_samlller{
+  color: #454545;
+    font-size: 15px!important;
+    font-family: "微软雅黑"
+}
+.col-sm-12 {
+  width: 80%;
+}
+.main{
+float: right;
+width: 80%;
+color: #454545;
+}
+.adisplayable{
+  display: none;
+}
+.largeq{
+   width:100%!important;
+   heig
+}
+.largeq_smaller{
+   width:50%
+}
+.zuoxiajiaobianju{
+padding:220px 10px 7px;
+}
+.item1{
+  color: #454545;
+    font-size: 20px;
+      margin-bottom: 0px;
+    font-family: "微软雅黑"
+
+}
+.article-list, .article{
+  /*margin-right: 30%;*/
+  background-color: ;
+  /*padding: 20px 30px;*/
+  -webkit-box-shadow: 0 0 3px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 0 3px 8px rgba(0,0,0,0.2);
+}
+.article-list .item .title,
+.article .title {
+  color: #000000!important;
+  font-size: 22px;
+  font-weight: 700;
+}
+.item{
+  padding-bottom: 12px!important;
+}
+.title{
+  color: #ffffff!important;
+}
+.article-list .item .status,
+.article .status {
+  font-size: 10px;
+  color: #9DA290!important;
+
+}
+.article-list .item > * ,
+.article > * {
+  margin: 10px 0;
+}
+.article-list .item{
+  margin-bottom: 25px;
+}
+/*.navbar-collapse{
+overflow:scroll;
+}*/
+.navbar-default{
+  position: fixed;
+
+}
+body{
+background: #454545 !important;
+/*color: #eee;*/
+line-height: 1.9;
+min-width:770px!important;
+z-index: -1
+}
+.navbar-container{
+  /*position: fixed;*/
+}
+.header .logo{
+  line-height: 1;
+  border: 5px solid #999;
+  padding: 10px 20px;
+  font-size: 30px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.side-bar .nav a:hover,
+.side-bar .tag-list a:hover {
+  color: #454545;
+}
+.side-bar .nav a{
+  font-weight: 700;
+}
+.side-bar .nav a,
+.side-bar .tag-list a
+{
+  display: block;
+  /*占母元素的整宽*/
+  padding: 5px 20px;
+  color: #777;
+  -webkit-transition: color 200ms ;
+  -o-transition: color 200ms ;
+  transition: color 200ms ;
+}
+a{
+  text-decoration: none;
+}
+a, body{
+  color: #eee;
+}
+.side-bar > * {
+  padding: 10px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*////////////////////////////////*/
